@@ -185,6 +185,15 @@ a:hover {
   margin-bottom: 4rem;
 }
 
+.deco-heading {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.deco-heading .bracket {
+  color: #f5c518;
+}
+
 .main-section .paragraph {
   display: flex;
   align-items: center;
@@ -200,6 +209,7 @@ a:hover {
 }
 .main-section .paragraph .text h3 {
   font-size: 2rem;
+  text-wrap: balance;
 }
 
 .main-section .paragraph .text {
