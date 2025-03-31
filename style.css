@@ -267,7 +267,8 @@ a:hover {
     "c d"
     "c e";
   gap: 2rem;
-  justify-self: center;
+  max-width: 40rem;
+  margin: 0 auto;
 }
 
 .contact-section form label:nth-child(1) {
@@ -312,8 +313,9 @@ a:hover {
 
 .social-section div {
   display: flex;
-  justify-self: center;
   gap: 2rem;
+  width: fit-content;
+  margin: auto;
 }
 
 .social-section div a img {
